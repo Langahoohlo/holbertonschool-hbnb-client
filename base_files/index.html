@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
+    <title>List of Places</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <a href="login.html" id="login-link">Login</a>
+        </nav>
+    </header>
+    <main>
+        <h1 class="flex flex-row items-center border border-black justify-center font-bold text-4xl">
+            Available places
+        </h1>
+        <section id="filter">
+            <label for="country-filter">Filter by Country:</label>
+            <select id="country-filter">
+                <!-- Options will be populated dynamically -->
+            </select>
+        </section>
+        <section id="places-list"
+            class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-4 p-10">
+            <!-- List of places will be populated dynamically -->
+            <div class="flex flex-col">
+                <div class="">
+                    <img src="https://images.unsplash.com/photo-1499678329028-101435549a4e?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                        alt="italy-house"
+                        class="w-[70px] h-64 rounded-xl hover:scale-250 transition duration-500 cursor-pointer">
+                </div>
+                <div class="flex flex-row justify-between">
+                    <div class="flex pt-2 ">
+                        <p class="font-bold">Clarens, South Africa</p>
+                    </div>
+                    <div class="flex pt-2 px-2">
+                        <p class="">ratings</p>
+                    </div>
+                </div>
+                <div>
+                    <p class="text-grey-500 font-normal">R1500/night</p>
+                </div>
+            </div>
+            <div class="flex flex-col">
+                <div class="">
+                    <img src="https://images.unsplash.com/photo-1499678329028-101435549a4e?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                        alt="italy-house"
+                        class="w-[70] h-64 rounded-xl hover:scale-125 transition duration-500 cursor-point">
+                </div>
+                <div class="flex flex-row justify-between">
+                    <div class="flex pt-2 ">
+                        <p class="font-bold">Clarens, South Africa</p>
+                    </div>
+                    <div class="flex pt-2 px-2">
+                        <p class="">ratings</p>
+                    </div>
+                </div>
+                <div>
+                    <p class="text-grey-500 font-normal">R1500/night</p>
+                </div>
+            </div>
+            <div class="flex flex-col">
+                <div class="">
+                    <img src="https://images.unsplash.com/photo-1499678329028-101435549a4e?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                        alt="italy-house"
+                        class="w-[70] h-64 rounded-xl hover:scale-125 transition duration-500 cursor-point">
+                </div>
+                <div class="flex flex-row justify-between">
+                    <div class="flex pt-2 ">
+                        <p class="font-bold">Clarens, South Africa</p>
+                    </div>
+                    <div class="flex pt-2 px-2">
+                        <p class="">ratings</p>
+                    </div>
+                </div>
+                <div>
+                    <p class="text-grey-500 font-normal">R1500/night</p>
+                </div>
+            </div>
+            <div class="flex flex-col">
+                <div class="">
+                    <img src="https://images.unsplash.com/photo-1499678329028-101435549a4e?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                        alt="italy-house"
+                        class="w-[70] h-64 rounded-xl hover:scale-125 transition duration-500 cursor-point">
+                </div>
+                <div class="flex flex-row justify-between">
+                    <div class="flex pt-2 ">
+                        <p class="font-bold">Clarens, South Africa</p>
+                    </div>
+                    <div class="flex pt-2 px-2">
+                        <p class="">ratings</p>
+                    </div>
+                </div>
+                <div>
+                    <p class="text-grey-500 font-normal">R1500/night</p>
+                </div>
+            </div>
+            <div class="flex flex-col">
+                <div class="">
+                    <img src="https://images.unsplash.com/photo-1499678329028-101435549a4e?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                        alt="italy-house"
+                        class="w-[70] h-64 rounded-xl hover:scale-125 transition duration-500 cursor-point">
+                </div>
+                <div class="flex flex-row justify-between">
+                    <div class="flex pt-2 ">
+                        <p class="font-bold">Clarens, South Africa</p>
+                    </div>
+                    <div class="flex pt-2 px-2">
+                        <p class="">ratings</p>
+                    </div>
+                </div>
+                <div>
+                    <p class="text-grey-500 font-normal">R1500/night</p>
+                </div>
+            </div>
+            <div class="flex flex-col">
+                <div class="">
+                    <img src="https://images.unsplash.com/photo-1499678329028-101435549a4e?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                        alt="italy-house"
+                        class="w-[70] h-64 rounded-xl hover:scale-125 transition duration-500 cursor-point">
+                </div>
+                <div class="flex flex-row justify-between">
+                    <div class="flex pt-2 ">
+                        <p class="font-bold">Clarens, South Africa</p>
+                    </div>
+                    <div class="flex pt-2 px-2">
+                        <p class="">ratings</p>
+                    </div>
+                </div>
+                <div>
+                    <p class="text-grey-500 font-normal">R1500/night</p>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="flex flex-row justify-center items-center bg-blue-500 h-12 text-white">
+            <p>&copy 2024 HBnB Evolution. All rights reserved</p>
+        </div>
+    </footer>
+    <script src="scripts.js"></script>
+</body>
+
+</html>

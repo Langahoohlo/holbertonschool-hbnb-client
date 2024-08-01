@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Place Details</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <a href="login.html" id="login-link">Login</a>
+        </nav>
+    </header>
+    <main class="container mx-auto">
+        <section id="place-details" class="flex flex-row grid grid-cols-2 pb-10">
+            <!-- Place details will be populated dynamically -->
+            <div class="flex flex-col items-center justify-center">
+                <div>
+                    <img src="https://images.unsplash.com/photo-1499678329028-101435549a4e?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                        alt="italy house" class="rounded-lg">
+                </div>
+            </div>
+            <div class="flex flex-col px-10">
+                <p>Host</p>
+                <p>Price per night</p>
+                <p>Location</p>
+                <p>Description</p>
+                <p>Amentities</p>
+
+            </div>
+
+        </section>
+        <section id="reviews" class="flex flex-col py-10 px-4 border rounded-lg shadow-lg bg-white">
+            <!-- Reviews will be populated dynamically -->
+             <h1>Langa Hoohlo</h1>
+             <p>Great plave to stay</p>
+             <p>Rating: </p>
+        </section>
+        <section id="add-review" class="py-5">
+            <h2>Add a Review</h2>
+            <form id="review-form">
+                <label for="review-text">Review:</label>
+                <textarea id="review-text" name="review-text" required class="w-full rounded-lg shadow-lg"></textarea>
+
+                <div class="w-full">
+                    <label for="styledDropdown" class="block text-sm font-medium text-gray-700 mb-1">Choose an option:</label>
+                    <select id="styledDropdown" class="w-full mt-1 mb-4 bg-white border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm h-12 shadow-lg">
+                      <option value="option1">Rating 1</option>
+                      <option value="option2">Rating 2</option>
+                      <option value="option3">Rating 3</option>
+                      <option value="option4">Rating 4</option>
+                      <option value="option4">Rating 5</option>
+                    </select>
+                  </div>
+
+                <div class="flex flex-col items-center justify-center">
+                    <button type="submit"class="bg-blue-500 hover:bg-blue-700 text-white px-8 py-2 rounded-md">Submit</button>
+                </div>
+            </form>
+        </section>
+    </main>
+    <script src="scripts.js"></script>
+    <footer>
+        <div class="flex flex-row justify-center items-center bg-blue-500 h-12 text-white">
+            <p>&copy 2024 HBnB Evolution. All rights reserved</p>
+        </div>
+    </footer>
+</body>
+
+</html>
