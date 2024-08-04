@@ -5,18 +5,24 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <title>List of Places</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
     <header>
-        <nav>
-            <a href="login.html" id="login-link">Login</a>
-        </nav>
+        <nav class="flex flex-row justify-between items-center">
+            <div>
+              <a href="index.html"><img src="logo.png" alt="logo"></a>
+            </div>
+            <div id="auth-link" class="text-grey-800 text-3xl pt-3">
+              <a href="login.html" id="login-link"></a>
+            </div>
+          </nav>
     </header>
     <main>
-        <h1 class="flex flex-row items-center border border-black justify-center font-bold text-4xl">
+        <h1 class="flex flex-row items-center justify-center font-bold text-4xl">
             Available places
         </h1>
         <section id="filter">
@@ -29,10 +35,13 @@
             class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-4 p-10">
             <!-- List of places will be populated dynamically -->
             <div class="flex flex-col">
-                <div class="">
+                <div class="relative inilne-block">
                     <img src="https://images.unsplash.com/photo-1499678329028-101435549a4e?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
                         alt="italy-house"
                         class="w-[70px] h-64 rounded-xl hover:scale-250 transition duration-500 cursor-pointer">
+                        <div class="absolute top-0 right-0 p-4">
+                            <i class="fas fa-star text-white"></i>
+                          </div>
                 </div>
                 <div class="flex flex-row justify-between">
                     <div class="flex pt-2 ">

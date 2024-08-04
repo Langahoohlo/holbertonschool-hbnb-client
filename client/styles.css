@@ -16,17 +16,38 @@ body {
 }
 
 header {
-    background-color: #333;
+    /* background-color: #333; */
+    background-color: transparent;
     color: #fff;
-    padding: 1rem;
+    padding: 0.5rem; /* No padding by default */
 }
 
+@media (min-width: 1024px) {
+    .header {
+      padding: 0 2rem; /* Add padding on larger screens */
+    }
+  }
+
 nav a {
-    color: #fff;
+    /* color: #fff; */
+    color: #3c3c3c;
     text-decoration: none;
     margin-left: 1rem;
 }
 
 main {
     padding: 2rem;
+}
+
+.fixed-margin {
+    margin: 20px;
+}
+
+.review-padding {
+    padding: 10px;
+}
+
+.card-border {
+    border: 1px solid #ddd;
+    border-radius: 10px;
 }

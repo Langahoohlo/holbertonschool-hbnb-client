@@ -1,0 +1,77 @@
+[
+    {
+        "id": "city-1",
+        "name": "New York",
+        "country_code": "US"
+    },
+    {
+        "id": "city-2",
+        "name": "Boston",
+        "country_code": "US"
+    },
+    {
+        "id": "city-3",
+        "name": "Los Angeles",
+        "country_code": "US"
+    },
+    {
+        "id": "city-4",
+        "name": "Toronto",
+        "country_code": "CA"
+    },
+    {
+        "id": "city-5",
+        "name": "Vancouver",
+        "country_code": "CA"
+    },
+    {
+        "id": "city-6",
+        "name": "Chicago",
+        "country_code": "US"
+    },
+    {
+        "id": "city-7",
+        "name": "San Francisco",
+        "country_code": "US"
+    },
+    {
+        "id": "city-8",
+        "name": "Miami",
+        "country_code": "US"
+    },
+    {
+        "id": "city-9",
+        "name": "Seattle",
+        "country_code": "US"
+    },
+    {
+        "id": "city-10",
+        "name": "Austin",
+        "country_code": "US"
+    },
+    {
+        "id": "city-11",
+        "name": "Montreal",
+        "country_code": "CA"
+    },
+    {
+        "id": "city-12",
+        "name": "Calgary",
+        "country_code": "CA"
+    },
+    {
+        "id": "city-13",
+        "name": "Ottawa",
+        "country_code": "CA"
+    },
+    {
+        "id": "city-14",
+        "name": "Edmonton",
+        "country_code": "CA"
+    },
+    {
+        "id": "city-15",
+        "name": "Quebec City",
+        "country_code": "CA"
+    }
+]
